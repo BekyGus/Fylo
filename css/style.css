@@ -1,0 +1,478 @@
+.body{
+    background: white;
+    margin: 0px auto;
+    padding: 0px; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+}
+.topf{
+    width: 100%;
+    min-height: 750px;
+}
+    .karkas{
+    position: relative;
+    width: 1350px;
+    height: 2000px;
+    background:white; 
+    margin: 0px auto;
+}
+.logo{
+    margin: 0px;
+    position: relative;
+    float: left;
+}
+.logo img{
+    position: absolute;
+    top: -10px;
+    left: 75px;
+}
+.navbar{
+    width: 1350px;
+    height: 100px;
+    background:white;
+    float: left;
+    position: absolute;
+    padding-top: 38px;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    padding-right: 80px;
+}
+.menu ul li{
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+    margin: 0px 20px;
+    box-sizing: border-box;
+    color: #07043B;
+    font-size: 16px;
+    align-items: flex-end;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+.menu ul li:hover{
+    cursor: pointer;
+    color: blue;
+    transition: 0.6s;
+}
+.main::before{
+    content: "All your files in one secure location, accessible anywhere.";
+    position: absolute;
+    width: 627px;
+    height: 120px;
+    left: 80px;
+    top: 266px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #07043B;
+    left: 75px;
+}
+.main::after{
+    content: "Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.";
+    position: absolute;
+    width: 485px;
+    height: 52px;
+    top: 401px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.51px;
+    color: #07043B;
+    right: 790px;
+}
+.abc{
+    position: absolute;
+    left: 710px;
+    top: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+}
+.kandb{
+    width: 150px;
+    height: 150px;
+    top: 550px;
+    position: relative;
+}
+.tp .btn{
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    height: 45px;
+    color: white;
+    background: #2F65F8;
+    border: #2F65F8;
+    border-radius: 3.125px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    float: left;
+    top: -41px;
+    left: 300px;
+}
+.tp input{
+    float: left;
+    position: relative;
+    width: 320px;
+    height: 45px;
+    border: 0.625px solid #07043B;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    padding: 0 0 0 15px;
+    right: 45px;
+    top: 5px;
+}
+.karkas:hover{
+    transition: 0.35s;
+}
+
+.centr{
+    height: 950.3743896484375px;
+    width: 1350px;
+    left: 0px;
+    float: left;
+    position: absolute;
+    bottom: 150px;
+    top: 750px;
+    margin: 0px auto;
+    padding: 0px;
+    right: 0px;
+    background-image: url(./png/Rectangle.png);
+    background-repeat: no-repeat;
+}
+h1{ 
+    margin: 195px 0px 0px 75px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #07043B;
+    right: 0px;
+    z-index: 500;
+}
+ .first{ 
+    margin: 0 0 0vh -5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #07043B;
+    position: absolute;
+    left: 6%;
+    right: 72px;
+    top: 300px;
+    bottom: 62.89%;
+    z-index: 500;
+}
+.second{
+    margin: 0 0 0vh -5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #07043B;
+    position: absolute;
+    z-index: 9;
+    left: 6%;
+    right: 57.71%;
+    top: 366px;
+    bottom: 62.89%;
+    z-index: 500;
+}
+.third{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #3DA08F;
+cursor: pointer;
+vertical-align: baseline;
+}
+.centr .third::before{
+    content:"";
+    width: 140px;
+    height: 1px;
+    background-color: #3DA08F;
+    float: left;
+    position: absolute;
+    z-index: 100;
+    top: 455px;
+}
+.img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 760px;
+top: 220px;
+}
+.centr i{
+    width: 5px;
+    color: #3DA08F;
+    left: 222px;
+    position: absolute;
+    bottom: 495px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.ramka{
+    top: 94px;
+    width: 354px;
+    height: 181px;
+    position: relative;
+    background-color: white;
+}
+.ramka i{
+    top: -18px;
+    left: 21px;
+    position: relative;
+    color: black;   
+}
+.ramka .new{
+   font-size: 13px;
+ left: 5px;
+bottom: 42px;
+   position: absolute;
+   font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+padding: 15px;
+line-height: 28px;
+box-sizing: border-box;
+}
+.pers{
+    position: relative;
+    top: 125px;
+    left: 3px;
+}
+.tp{
+    width: 450px;
+    height: 350px;
+    float: left;
+    position: absolute;
+    z-index: 100;
+    left: 120px;
+    top: 480px;
+}
+.bot{
+    float: left;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+   top: 800px;
+}
+.ramka p{
+    color: #07043B;
+    font-size: 11px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    left: 62px;
+    position: relative;
+    bottom: -57px;
+}
+
+h3{
+    font-size: 8px;
+    position: relative;
+    float: left;
+    bottom: -7px;
+    left: 62px;
+}
+.text{
+    background: #575988;
+    width: 100%;
+    height: 370px;
+}
+.text h1, h2{
+    font-size: 15px;
+    color: white;
+}
+.fp{
+    position: relative;
+   }
+.text h1{
+    position: relative;
+    top: -225px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+}
+
+.tx h2{
+    padding-right: 100px;
+    position: relative;
+    top: -210px;
+    left: 75px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    z-index: 500;
+}
+.tx{
+    position: relative;
+    float: left;
+    width: 520px;
+    height: 150px;
+}
+.bit{
+    width: 450px;
+    height: 150px;
+    position: relative;
+    background: #575988;
+    z-index: 10;
+    top: 130px;
+    padding-left: 750px;
+}
+.butn{
+    width: 200px;
+    height: 48px;
+    background: #2F65F8;
+box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+border-radius: 3.125px;
+cursor: pointer;
+top: 16px;
+position: relative;
+color: white;
+border: #2F65F8;
+}
+
+.bit input{
+    width: 480px;
+    height: 48px;
+    padding-left: 22px;
+    color: #C0C0C0;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+border-radius: 3.125px;
+border-color: transparent;
+}
+.sp{
+    width: 100%;
+    float: left;
+    height: 390px;
+    background:  #07043B;
+    position: relative;
+    bottom: 175px;
+}
+.fl img{
+    position: relative;
+    top: 93px;
+    left: 70px;
+    padding: 5px;
+}
+.inf{
+    position: relative;
+    width: 240px;
+    height: 150px;
+    top: 50px;
+    padding-left: 100px;
+}
+
+.inf h1{
+    color:white;
+top: -157px;
+position: relative;
+width: 180px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+right: 39px;
+}
+
+.inf h2{
+    position: absolute;
+    top: 101px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    right: 53px;
+    padding-right: 25px;
+}
+.inf .enve{
+    position: relative;
+}
+.inf img{
+    position: relative;
+    top: 120px;
+    left:10px;
+}
+.sp .a1{
+    right: 15px;
+    top: 42px;
+    position: relative;
+}
+.sp .a2{
+    top: 49px;
+    position: relative;
+    right: 15px;
+}
+.inf2{
+    width: 280px;
+    height: 200px;
+    float: left;
+    position: relative;
+    left: 450px;
+    bottom: 44px;
+    color: white;
+}
+.inf2 ul li{
+    list-style-type: none;
+    padding: 10px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+}
+
+.ic ul li{
+    list-style-type: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+float: left;
+}
+.icc i{
+    border-radius: 50%;
+    border-radius: 5px;
+    padding:5px;
+    color: white;
+    left: 850px;
+    position: relative;
+    bottom: 190px;
+}
+.icc :hover{
+    cursor: pointer;
+}
+.inf2:hover{
+    cursor: pointer;
+}
+.ic{
+    top: -45px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+cursor: pointer;
+padding-left: 750px;
+}
